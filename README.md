@@ -2,25 +2,25 @@
 
 Well of course you should, and now you can:
 
-    $ ishouldbedoingsomethingawesome
+    $ awesome-time start
     Do awesome.
 
 Everybody has their limits:
 
-    $ ineedtostopbeingawesome
+    $ awesome-time stop
     Stop doing awesome.
 
 ## What does it do?
 
-It makes you productive, by limiting the sites you can go to in your period of `Awesome`.
+It makes you productive, by limiting the sites you can go to in your time of `Awesome`.
 
 ## How do I block a site for my period of Awesome?
 
-    $ blocksitewhenawesome time-wasting-site.com time-wasting-site2.com
+    $ awesome-time add-site time-wasting-site.com time-wasting-site2.com
 
 ## How does it work?
 
-`shouldnt-you-be-doing-sometthing-awesome` `SSH` you into your own machine (instead of changing `/etc/hosts` which would require root access). All the blocked sites are in `~/.ssh/config.block` which temporarily replaces `~/.ssh/config`, whenever you should be doing something Awesome. `~/.ssh/config` allows you to modify hostnames; we can redirect `time-wasting-site.com` to `127.0.0.1:1337`. `127.0.1:1337` will simply tell you to stop wasting time, and start being awesome.
+`shouldnt-you-be-doing-something-awesome` `SSH` you into your own machine (instead of changing `/etc/hosts` which would require root access). All the blocked sites are in `~/.ssh/config.block` which temporarily replaces `~/.ssh/config`, whenever you should be doing something Awesome. `~/.ssh/config` allows you to modify hostnames; we can redirect `time-wasting-site.com` to `127.0.0.1:1337`. `127.0.1:1337` is a simple Sinatra application telling you to stop wasting your time, and start being awesome. To run the Sinatra application smoothly in the background, and for the overall awesome, it's handled as a deamon.
 
 ## Isn't this useless?
 
