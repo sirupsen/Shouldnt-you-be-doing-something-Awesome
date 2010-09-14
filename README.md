@@ -10,6 +10,10 @@ Everybody has their limits:
     $ awesome-time stop
     Stop doing awesome.
 
+## Installation
+
+You can't *yet*. [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html) for the win.
+
 ## What does it do?
 
 It makes you productive, by limiting the sites you can go to in your time of `Awesome`.
