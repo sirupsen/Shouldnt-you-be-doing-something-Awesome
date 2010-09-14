@@ -3,7 +3,7 @@
 Well of course you should, and now you can:
 
     $ awesome-time start
-    Do awesome.
+    Start doing awesome.
 
 Everybody has their limits:
 
